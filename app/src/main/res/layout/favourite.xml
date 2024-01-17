@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:cardCornerRadius="10dp"
+        android:padding="1dp"
+        android:layout_margin="5dp"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="4dp">
+
+        <TextView
+            android:id="@+id/shayri"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="italic|bold"
+            android:text="Add some Shayri"/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
